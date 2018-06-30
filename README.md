@@ -12,12 +12,21 @@ $.query("h1");
 $.querys("li");
 ```
 
-#### Get Content HTML Value
+#### Get HTML-Content HTML Value
 ```
 $("h1").html();
 -------------------
 var h=$("h1");
 alert ( h.html() );
+```
+
+
+#### Change HTML-Content
+```
+var h=$("h1");
+h.html("New Value");
+--------------------
+h.html( h.html() + " ==> New Value");//like append
 ```
 
 #### Get all childrens 
