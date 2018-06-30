@@ -1,12 +1,34 @@
 # EwJs
 Tiny JavaScript framework for building UI on the web. (Being coding,Soon)
 
+#### Get a element
 ```
-<h1>Wellcome to EW.Js</h1>
-<script>
-var el=$("h1");
-alert(el.html());
-el.html("Soon!");
-console.log(el);
-</script>
+$("h1");
+$.query("h1");
 ```
+
+#### Get all elements as array
+```
+$.querys("li");
+```
+
+#### Get Content HTML Value
+```
+$("h1").html();
+-------------------
+var h=$("h1");
+alert ( h.html() );
+```
+
+#### Get all childrens 
+```
+var ul=$("ul");
+var items=ul.childrens();
+```
+#### Get Length of childrens/array
+```
+var ul=$("ul");
+var items=ul.childrens();
+var count=items.length()
+```
+
