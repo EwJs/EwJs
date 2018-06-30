@@ -29,6 +29,17 @@ h.html("New Value");
 h.html( h.html() + " ==> New Value");//like append
 ```
 
+
+#### Append to HTML-Content
+```
+var h=$("h1");
+h.append("!!!!");
+```
+
+#### Append Child to a element
+```
+```
+
 #### Get all childrens 
 ```
 var ul=$("ul");
