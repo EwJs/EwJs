@@ -36,8 +36,10 @@ var h=$("h1");
 h.append("!!!!");
 ```
 
-#### Append Child to a element
+#### Animation : Fade a Element
 ```
+$("h1").fadeout();
+$("h1").fadein();
 ```
 
 #### Get all childrens 
