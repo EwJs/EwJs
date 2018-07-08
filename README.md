@@ -39,7 +39,9 @@ h.append("!!!!");
 #### Animation : Fade a Element
 ```
 $("h1").fadeout();
+$("h1").fadeout(5000);
 $("h1").fadein();
+$("h1").fadein(5000);
 ```
 
 #### Get all childrens 
