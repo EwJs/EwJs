@@ -43,6 +43,7 @@ $("h1").fadeout(5000);
 $("h1").fadein();
 $("h1").fadein(5000);
 $("h1").slidedown();
+$("h1").slideup();
 ```
 
 #### Get all childrens 
